@@ -27,24 +27,6 @@ A full-stack **Course Management Web Application** built with:
 
 ---
 
-## 🏗️ Project Structure
-
-course-management/
-│── backend/ # Spring Boot (Java) backend
-│ ├── src/main/java/com/example/coursemanagement
-│ ├── src/main/resources
-│ └── pom.xml
-│
-│── frontend/ # React frontend
-│ ├── src/
-│ ├── public/
-│ └── package.json
-│
-└── README.md
-
-
----
-
 ## ⚡ Getting Started
 
 ### 🔹 1. Clone Repository
@@ -69,19 +51,21 @@ npm start
 Frontend will start on http://localhost:3000
 
 🔌 API Endpoints (Backend)
-Method	Endpoint	Description
-GET	/api/students	Get all students
-POST	/api/students	Add new student
-PUT	/api/students/{id}	Update student
-DELETE	/api/students/{id}	Delete student
-GET	/api/courses	Get all courses
-POST	/api/courses	Add new course
-GET	/api/registrations	Get all registrations
-POST	/api/registrations	Register student to course
-PUT	/api/registrations/{id}	Update registration
-DELETE	/api/registrations/{id}	Delete registration
-GET	/api/results	Get all results
-POST	/api/results	Add new result
+| Method | Endpoint                  | Description                |
+| ------ | ------------------------- | -------------------------- |
+| GET    | `/api/students`           | Get all students           |
+| POST   | `/api/students`           | Add new student            |
+| PUT    | `/api/students/{id}`      | Update student             |
+| DELETE | `/api/students/{id}`      | Delete student             |
+| GET    | `/api/courses`            | Get all courses            |
+| POST   | `/api/courses`            | Add new course             |
+| GET    | `/api/registrations`      | Get all registrations      |
+| POST   | `/api/registrations`      | Register student to course |
+| PUT    | `/api/registrations/{id}` | Update registration        |
+| DELETE | `/api/registrations/{id}` | Delete registration        |
+| GET    | `/api/results`            | Get all results            |
+| POST   | `/api/results`            | Add new result             |
+
 🛠️ Tech Stack
 
 Backend: Spring Boot, Spring Data JPA, Hibernate, Maven
