@@ -61,8 +61,6 @@ Frontend will start on http://localhost:3000
 | POST   | `/api/courses`            | Add new course             |
 | GET    | `/api/registrations`      | Get all registrations      |
 | POST   | `/api/registrations`      | Register student to course |
-| PUT    | `/api/registrations/{id}` | Update registration        |
-| DELETE | `/api/registrations/{id}` | Delete registration        |
 | GET    | `/api/results`            | Get all results            |
 | POST   | `/api/results`            | Add new result             |
 
