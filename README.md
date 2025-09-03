@@ -5,7 +5,7 @@ A full-stack **Course Management Web Application** built with:
 - ⚙️ **Spring Boot** – Backend REST API  
 - 💻 **React.js** – Frontend UI  
 - 🗄️ **H2** – Database (JPA with Hibernate)  
-- 🚀 **Maven + npm** – Build & Run
+- 🚀 **Mvn Wrapper + npm** – Build & Run
 - 🚌 **Docker Containerization** - Easy Deployment
 
 ---
