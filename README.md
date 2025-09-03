@@ -32,7 +32,7 @@ A full-stack **Course Management Web Application** built with:
 
 ### 🔹 1. Clone Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/course-management.git
+git clone https://github.com/NeVi12/University-Course-Management-System.git
 ```
 
 ### 🔹 2. Runing the Application
