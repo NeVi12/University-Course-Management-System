@@ -2,10 +2,11 @@
 
 A full-stack **Course Management Web Application** built with:
 
-- ⚙️ **Spring Boot (Java 22)** – Backend REST API  
+- ⚙️ **Spring Boot** – Backend REST API  
 - 💻 **React.js** – Frontend UI  
-- 🗄️ **MySQL / H2** – Database (JPA with Hibernate)  
-- 🚀 **Maven + npm** – Build & Run  
+- 🗄️ **H2** – Database (JPA with Hibernate)  
+- 🚀 **Maven + npm** – Build & Run
+- 🚌 **Docker Containerization** - Easy Deployment
 
 ---
 
@@ -32,23 +33,21 @@ A full-stack **Course Management Web Application** built with:
 ### 🔹 1. Clone Repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/course-management.git
-cd course-management
 ```
 
-### 🔹 2. Run Backend (Spring Boot)
+### 🔹 2. Runing the Application
+Open Terminal
 ```bash
-cd backend
-.\mvnw spring-boot:run
+cd course-management
+docker-compose up --build
 ```
 Backend will start on http://localhost:8080
-
-### 🔹 3. Run Frontend (React)
-```bash
-cd frontend
-npm install
-npm start
-```
 Frontend will start on http://localhost:3000
+
+### 🔹 3. Stop containers
+```bash
+docker-compose down
+```
 
 🔌 API Endpoints (Backend)
 | Method | Endpoint                  | Description                |
@@ -72,4 +71,4 @@ Frontend: React.js, Axios, CSS
 
 Database: H2
 
-Tools: VS Code, Git, npm
+Tools: VS Code, Git, npm, Docker
