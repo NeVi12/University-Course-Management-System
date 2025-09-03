@@ -1,0 +1,125 @@
+.manager {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Form */
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form-container button {
+  padding: 8px 14px;
+  border: none;
+  background: #1abc9c;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-container button:hover {
+  background: #16a085;
+}
+
+/* Search */
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Table */
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+th {
+  background: #2c3e50;
+  color: white;
+}
+
+tr:hover {
+  background: #f9f9f9;
+}
+
+/* Buttons */
+.edit-btn {
+  padding: 6px 12px;
+  background: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-btn:hover {
+  background: #2980b9;
+}
+
+.save-btn {
+  padding: 6px 12px;
+  background: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.save-btn:hover {
+  background: #16a085;
+}
+
+.delete-btn {
+  padding: 6px 12px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
